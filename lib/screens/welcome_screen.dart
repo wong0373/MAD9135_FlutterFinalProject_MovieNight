@@ -1,13 +1,13 @@
 import 'dart:io';
 import 'package:android_id/android_id.dart';
 import 'package:device_info_plus/device_info_plus.dart';
-import 'package:final_project/screens/enter_code_screen.dart';
-import 'package:final_project/screens/movie_selection_screen.dart';
-import 'package:final_project/utils/preference_helper.dart';
+import 'package:MovieNight/screens/enter_code_screen.dart';
+import 'package:MovieNight/screens/movie_selection_screen.dart';
+import 'package:MovieNight/utils/preference_helper.dart';
 import 'package:flutter/material.dart';
-import 'package:final_project/screens/share_code_screen.dart';
+import 'package:MovieNight/screens/share_code_screen.dart';
 import 'package:provider/provider.dart';
-import 'package:final_project/utils/app_state.dart';
+import 'package:MovieNight/utils/app_state.dart';
 
 class WelcomeScreen extends StatefulWidget {
   const WelcomeScreen({super.key});

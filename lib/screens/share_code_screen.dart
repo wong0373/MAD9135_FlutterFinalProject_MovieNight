@@ -1,9 +1,9 @@
-import 'package:final_project/screens/movie_selection_screen.dart';
-import 'package:final_project/utils/http_helper.dart';
-import 'package:final_project/utils/preference_helper.dart';
+import 'package:MovieNight/screens/movie_selection_screen.dart';
+import 'package:MovieNight/utils/http_helper.dart';
+import 'package:MovieNight/utils/preference_helper.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:final_project/utils/app_state.dart';
+import 'package:MovieNight/utils/app_state.dart';
 
 class ShareCodeScreen extends StatefulWidget {
   const ShareCodeScreen({super.key});

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
-import 'package:final_project/utils/app_state.dart';
-import 'package:final_project/utils/http_helper.dart';
-import 'package:final_project/utils/preference_helper.dart';
-import 'package:final_project/screens/movie_selection_screen.dart';
+import 'package:MovieNight/utils/app_state.dart';
+import 'package:MovieNight/utils/http_helper.dart';
+import 'package:MovieNight/utils/preference_helper.dart';
+import 'package:MovieNight/screens/movie_selection_screen.dart';
 
 class EnterCodeScreen extends StatefulWidget {
   const EnterCodeScreen({super.key});

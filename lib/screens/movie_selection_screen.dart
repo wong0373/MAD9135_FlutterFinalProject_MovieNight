@@ -1,8 +1,8 @@
-import 'package:final_project/screens/welcome_screen.dart';
-import 'package:final_project/utils/http_helper.dart';
+import 'package:MovieNight/screens/welcome_screen.dart';
+import 'package:MovieNight/utils/http_helper.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:final_project/utils/app_state.dart';
+import 'package:MovieNight/utils/app_state.dart';
 
 class MovieSelectionScreen extends StatefulWidget {
   const MovieSelectionScreen({super.key});
